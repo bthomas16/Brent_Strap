@@ -42,8 +42,8 @@
 .align-content-bottom {
   align-content: flex-end;
 }
-.align-content-fill {
-  align-content: stretch;
+.align-content-baseline {
+  align-content: baseline;
 }
 .align-content-fill {
   align-content: stretch;
@@ -275,6 +275,21 @@
 }
 .bg-lighten-4 {
   background-color: rgba(255, 255, 255, 0.5);
+}
+.op-1 {
+  opacity: 0.9;
+}
+.op-2 {
+  opacity: 0.8;
+}
+.op-3 {
+  opacity: 0.7;
+}
+.op-4 {
+  opacity: 0.5;
+}
+.op-5 {
+  opacity: 0.25;
 }
 /* MEDIA QUERIES */
 @media (max-width: 481px) {
